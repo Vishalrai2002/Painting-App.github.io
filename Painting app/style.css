@@ -1,0 +1,42 @@
+#myCanvas {
+    border: solid black;
+    background-color: white;
+  }
+  h2{
+      text-align: top;
+      text-decoration: underline;
+      font-weight: bold;
+    margin: 3px 4px;
+      
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+  }
+  
+  .color {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 0.6rem;
+  }
+  
+  button {
+    background: dodgerblue;
+    color: white;
+    padding: 12px 14px;
+    outline: none;
+    border: none;
+    margin: 0.3rem;
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: rgb(9, 118, 226);
+  }
+  
